@@ -1,0 +1,33 @@
+<html>
+<meta charset="utf-8" />
+
+<head>
+    <script src="secante.js" defer></script>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>metodo de la secante</h1>
+    <br>
+    <input id="xim" placeholder="ingrese x0">
+    <input id="xi" placeholder="ingrese x1">
+    <input id="n" placeholder="ingrese n">
+
+    <br>
+    <button onclick="run()">calcular</button>
+    <br> <span id="es">Es</span> </body>
+<table id="Table">
+    <tr>
+        <td>iteracion</td>
+        <td>Xi</td>
+        <td>f(x)</td>
+        <td>EP</td>
+    </tr>
+</table>
+
+</html>
